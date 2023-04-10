@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Kotak Website" parallel="tests">
+
+	<parameter name="browserName" value="chrome"></parameter>
+	<test name="Debit Cards ">
+		<classes>
+			<class name="kotak.CompareDebitCards" />
+		</classes>
+	</test>
+</suite>
